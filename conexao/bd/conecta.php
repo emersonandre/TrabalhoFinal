@@ -1,8 +1,8 @@
 <?php
 $hostname = "localhost";
-$username = "master";
-$password = "145819";
-$database = "painel_gtc";
+$username = "root";
+$password = "";
+$database = "bd_os";
 
 $conn = mysqli_connect($hostname, $username, $password ,$database);
 // Check connection
