@@ -1,0 +1,24 @@
+.label-pill{
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem;
+}
+.alin_td{
+    text-align: center;
+    margin-top: 0px;
+}
+.alin_txt{
+    text-align: left;
+    margin-top: auto;
+    vertical-align: center;
+    background: write;
+}
+.alin-table{
+    text-align: center;
+    vertical-align: top;
+}
+table {
+    border: 1px solid ;
+    margin-top: 5px; 
+    width: 50%;
+    }

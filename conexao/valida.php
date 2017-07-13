@@ -13,16 +13,15 @@ require '../conexao/bd/conecta.php';
 	// Verifica se o usuario logado esta ativo.
 	if(mysqli_num_rows($result) > 0 ) {
         while($row = $result->fetch_assoc()) {
-            $_SESSION['id'] = $row['Log_id'];
-            $_SESSION['login'] = $row['Log_login'];
-            $_SESSION['acesso'] = $row['Log_permissao'];
-            header('location:../index.html');
+            $_SESSION['id'] = $row['log_id'];
+            $_SESSION['login'] = $row['log_login'];
+            $_SESSION['acesso'] = $row['log_permissao'];
+            header('location:../admin.php');
         }
 	}
     else{
-        header('location:');
+        header('location:../login/logar.html');
     }
 
 //retorna resultado da consulta TRUE ou FALSE
-
 ?>
