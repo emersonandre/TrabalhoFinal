@@ -9,7 +9,7 @@ $senha = md5($_POST['password']);
 require '../conexao/bd/conecta.php';
 
 //resolve conexão com o banco!
-	$result = mysqli_query($conn,"SELECT log_id, log_login, log_permissao FROM login WHERE log_login = '$login' AND log_senha= '$senha'");
+	$result = mysqli_query($conn,"SELECT log_id, log_login, log_permissao FROM login WHERE log_login = '$login' AND log_senha= '$senha' and log_estatus < 1");
 	// Verifica se o usuario logado esta ativo.
 	if(mysqli_num_rows($result) > 0 ) {
         while($row = $result->fetch_assoc()) {
@@ -18,8 +18,8 @@ require '../conexao/bd/conecta.php';
             $_SESSION['acesso'] = $row['log_permissao'];
             header('location:../admin.php');
         }
-	}
-    else{
+	}else{
+        echo "<script>alert('Usuario ou Senha invalidos!);</script>";
         header('location:../login/logar.html');
     }
 

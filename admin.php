@@ -74,8 +74,11 @@ session_start();
                     <a href="./admin.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                 </li>
                 <li>
-                    <a href="javascript:;" data-toggle="collapse" data-target="#linhas"><i class="fa fa-fw fa-arrows-v"></i>Cadastro<i class="fa fa-fw fa-caret-down"></i></a>
-                    <ul id="linhas" class="collapse">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#cadastro"><i class="fa fa-fw fa-arrows-v"></i>Cadastro<i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="cadastro" class="collapse">
+                        <li>
+                            <a href="#" id="btnCadCliente"><i class="fa fa-fw fa-edit"></i>Cadastro Cliente</a>
+                        </li>
                         <li>
                             <a href="#" id="btnCadMaquinas"><i class="fa fa-fw fa-edit"></i>Cadastro Maquinas</a>
                         </li>
@@ -91,13 +94,30 @@ session_start();
                     </ul>
                 </li>
                 <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#edicao"><i class="fa fa-fw fa-arrows-v"></i>Edição<i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="edicao" class="collapse">
+                        <li>
+                            <a href="#" id="btnEditMaquinas"><i class="fa fa-fw fa-edit"></i>Editar Maquinas</a>
+                        </li>
+                        <li>
+                            <a href="#" id="btnEditItens"><i class="fa fa-fw fa-edit"></i>Editar Itens</a>
+                        </li>
+                        <li>
+                            <a href="#" id="btnEditCidade"><i class="fa fa-fw fa-edit"></i>Editar Cidade</a>
+                        </li>
+                        <li>
+                            <a href="#" id="btnEditBairro"><i class="fa fa-fw fa-edit"></i>Editar Bairro</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
                     <a href="javascript:;" data-toggle="collapse" data-target="#usuario"><i class="fa fa-fw fa-arrows-v"></i>Usuarios<i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="usuario" class="collapse">
                         <li>
-                            <a id="btnCadUsuario" href="#"><i class="fa fa-list-alt"></i> Cadastrar Usuario</a>
+                            <a id="btnCadLogin" href="#"><i class="fa fa-list-alt"></i> Cadastrar Login</a>
                         </li>
                         <li id="divNivelAcesso">
-                            <a id="btnEditUsuario" href="#"><i class="fa fa-list-alt"></i> Editar Usuario</a>
+                            <a id="btnEditLogin" href="#"><i class="fa fa-list-alt"></i> Editar Login</a>
                         </li>
                     </ul>
                 </li>
@@ -184,11 +204,11 @@ session_start();
         $("#btnCadBairro").click(function(){
             $("#conteudo_principal").load("./pages/cad-bairro.php");
         });
-        $("#btnCadUsuario").click(function(){
+        $("#btnCadLogin").click(function(){
             $("#conteudo_principal").load("./pages/cad-usuario.php");
         });
-        $("#btnEditUsuario").click(function(){
-            $("#conteudo_principal").load("./edit-usuario.php");
+        $("#btnEditLogin").click(function(){
+            $("#conteudo_principal").load("./pages/edit-usuario.php");
         });
     </script>
     <script>

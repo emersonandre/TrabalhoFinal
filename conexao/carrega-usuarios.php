@@ -53,7 +53,7 @@ $tabela = "<table class='table table-hover'>
             $tabela .="<td class='alin-table'>".$row["senha"]."</td>";
             $tabela .="<td class='alin-table'>".$row["perm"]."</td>";
             $tabela .="<td class='alin-table'>".$row["status"]."</td>";
-            $tabela .="<td class='alin-table'><button class='btn btn-danger' value='".$row["id"]."'  onClick = 'aoClicarExcluir($(this).val())' ><span class='badge'><i class='fa fa-trash-o fa-lg'></i></span> Deletar</a></button></td>";
+            $tabela .="<td class='alin-table'><button class='btn btn-danger' value='".$row["id"]."'  onClick = 'aoClicarExcluirLogin($(this).val())' ><span class='badge'><i class='fa fa-trash-o fa-lg'></i></span> Deletar</a></button></td>";
             "<br>";
         }
     }

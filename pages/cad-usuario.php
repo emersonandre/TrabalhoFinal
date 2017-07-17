@@ -80,7 +80,7 @@ session_start();
                 },
 				timeout: '10000',
                 success: function(){
-                    $('#div_retorno_usuario').load('./return/cadastroUSER/pag-cad-success.php');
+                    alert("Mensagem: Usuario Cadastrado com Sucesso!" );
                     $('#div_carrega_usuarios').load('./conexao/carrega-usuarios.php');
                 },
                 error: function(jqXHR, textStatus, errorThrown){
@@ -89,6 +89,26 @@ session_start();
                 }
                 });
             });
+    </script>
+    </script>
+    <!-- function excluir dados da tabela-->
+    <script>
+    function aoClicarExcluirLogin(id){
+        $.ajax({
+            type:'post',
+            url: './conexao/deleta-login.php',
+            data: {'id':id},
+            timeout: '10000',
+            success: function(){
+                alert("Mensagem: Usuario Deletado com Sucesso!" );
+                $('#div_carrega_usuarios').load('./conexao/carrega-usuarios.php');
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert("Error: " + errorThrown);
+                $('#div_carrega_usuarios').load('./conexao/carrega-usuarios.php');
+            }
+        });
+    };
     </script>
 <script>
     // O HTML da div precisa estar acima.
