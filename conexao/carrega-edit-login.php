@@ -11,7 +11,7 @@ session_start();
 ?>
 <?php
 
-include '../conexao/bd/conecta.php';
+require '../conexao/bd/conecta.php';
 
 $id_usuario = $_POST['id_usuario'];
                             

@@ -192,6 +192,9 @@ session_start();
         });
     </script>
     <script type="text/javascript">
+        $("#btnCadCliente").click(function(){
+            $("#conteudo_principal").load("./pages/cad-cliente.php");
+        });
         $("#btnCadMaquinas").click(function(){
             $("#conteudo_principal").load("./pages/cad-maquinas.php");
         });

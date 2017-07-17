@@ -1,0 +1,23 @@
+--------------------SISTEMA CONTROLE DE ORDEM DE SERVIÇO--------------------------
+O sistema consiste em controle de entrada e saida de maquinas para suporte via Ordem de serviço,
+o sistema controla maquinas, clientes cadastrados, cobrança de valores etc...
+o cliente precisa ter um cadastro para ter uma maquina em atendimento, sem cadastro nao e possivel cadastrar uma maquina 
+o sistema e controlado por um admin da empresa de suporte responsavel... 
+Admin de nivel 1 - pode cadastrar novos usuarios e tecnicos para atendimento.
+Admin do sistema ou usuario autorizado pode fazer o procedimento e cadastrar maquinas e Ordem.
+
+
+-----------------------CONEXAO BANCO -----------------------------------------
+o banco para instalação sera Mysql
+apos criar a base BD_OS, execitar o escript BaseOS.sql 
+       o script ja contem aslguns registros pre cadastrado...
+caso os mesmos nao sejam incluidos juntamente com a criação das tebaleas executar o script bd_os_insert.sql onde sera 
+inserido registros pre defenidos na base para teste.
+
+
+----------------------INFORMAÇOES------------------------------------------
+
+Para mais duvidas ou informaçoes descompactar o .Zip e verificar a estrutura MER(Modelo entidade relacionamento) ou a RE(Relacionamento) que contem os dados e desenhos
+do banco de dados em modelo fisico(tabelas) e modelo conceitual
+
+consultas predefinidas ---  arquivos consultas.sql
