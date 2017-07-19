@@ -9,53 +9,106 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TrabalhoFinal" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cad-cliente.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cad-cliente.php">
+      <file leaf-file-name="cad-itens.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/cad-itens.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+            <state relative-caret-position="694">
+              <caret line="108" column="73" lean-forward="false" selection-start-line="108" selection-start-column="73" selection-end-line="108" selection-end-column="73" />
               <folding>
-                <marker date="1500477565985" expanded="true" signature="2721:2768" ph="SELECT cid_i... cid_cidade" />
+                <marker date="1500485862002" expanded="true" signature="1733:1779" ph="SELECT mar_i... mar_marca" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grava-cliente.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conexao/grava-cliente.php">
+      <file leaf-file-name="cad-cidade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/cad-cidade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cad-estado.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/cad-estado.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cad-os.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/cad-os.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cad-marca.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/cad-marca.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cad-fornecedor.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/cad-fornecedor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleta-equipamento.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conexao/deleta-equipamento.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
-                <marker date="1500477302071" expanded="true" signature="861:1116" ph="INSERT INTO `cli_cliente`... " />
+                <marker date="1500485943569" expanded="true" signature="354:410" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="valida.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conexao/valida.php">
+      <file leaf-file-name="carrega-equipamentos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conexao/carrega-equipamentos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="-4">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
-                <marker date="1500308849081" expanded="true" signature="335:436" ph="SELECT id,us... gtc_usuario" />
-                <marker date="1500308849081" expanded="true" signature="335:456" ph="SELECT log_i... login" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grava-usuario.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conexao/grava-usuario.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-              <folding>
-                <marker date="1499962420152" expanded="true" signature="693:762" ph="SELECT log_i... login" />
-                <marker date="1499962420152" expanded="true" signature="1060:1191" ph="INSERT INTO `login`... " />
+                <marker date="1500484193986" expanded="true" signature="319:562" ph="SELECT eq_id... eq_equipamento" />
+                <marker date="1500484193986" expanded="true" signature="618:1129" ph="..." />
+                <marker date="1500484193986" expanded="true" signature="656:1107" ph="..." />
+                <marker date="1500484193986" expanded="true" signature="679:1082" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,8 +117,8 @@
       <file leaf-file-name="deleta-login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conexao/deleta-login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
               <folding>
                 <marker date="1500308217962" expanded="true" signature="348:390" ph="DELETE FROM " />
               </folding>
@@ -73,61 +126,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conecta.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conexao/bd/conecta.php">
+      <file leaf-file-name="cad-maquinas.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/cad-maquinas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleta-cliente.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conexao/deleta-cliente.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="594">
+              <caret line="321" column="9" lean-forward="true" selection-start-line="304" selection-start-column="0" selection-end-line="321" selection-end-column="9" />
               <folding>
-                <marker date="1500473255997" expanded="true" signature="350:400" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carrega-cliente.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conexao/carrega-cliente.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="73" column="108" lean-forward="true" selection-start-line="73" selection-start-column="108" selection-end-line="73" selection-end-column="130" />
-              <folding>
-                <marker date="1500472287506" expanded="true" signature="425:921" ph="SELECT cli_i... cli_cliente" />
-                <marker date="1500472287506" expanded="true" signature="1219:2124" ph="..." />
-                <marker date="1500472287506" expanded="true" signature="1257:2102" ph="..." />
-                <marker date="1500472287506" expanded="true" signature="1280:1311" ph="..." />
-                <marker date="1500472287506" expanded="true" signature="1280:2077" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cad-usuario.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cad-usuario.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="busca-bairro.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conexao/busca-bairro.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-              <folding>
-                <marker date="1500477606510" expanded="true" signature="491:657" ph="SELECT br_id... gtc_linhas_variacao" />
+                <marker date="1500483587572" expanded="true" signature="1756:1819" ph="SELECT eq_id... eq_equipamento" />
+                <marker date="1500483587572" expanded="true" signature="2671:2734" ph="SELECT eq_id... eq_equipamento" />
+                <marker date="1500483587572" expanded="true" signature="3591:3654" ph="SELECT eq_id... eq_equipamento" />
+                <marker date="1500483587572" expanded="true" signature="5147:5208" ph="SELECT eq_id... eq_equipamento" />
+                <marker date="1500483587572" expanded="true" signature="7688:7752" ph="SELECT eq_id... eq_equipamento" />
+                <marker date="1500483587572" expanded="true" signature="9571:9633" ph="SELECT eq_id... eq_equipamento" />
+                <marker date="1500483587572" expanded="true" signature="10480:10494" ph="SELECT cid_i... cid_cidade" />
+                <marker date="1500483587572" expanded="true" signature="10480:10555" ph="SELECT cli_i... cli_cliente" />
+                <marker date="1500483587572" expanded="true" signature="11647:11660" ph="..." />
               </folding>
             </state>
           </provider>
@@ -167,9 +180,14 @@
         <option value="$PROJECT_DIR$/conexao/carrega-edit-login.php" />
         <option value="$PROJECT_DIR$/conexao/carrega-cliente.php" />
         <option value="$PROJECT_DIR$/conexao/deleta-cliente.php" />
-        <option value="$PROJECT_DIR$/conexao/grava-cliente.php" />
-        <option value="$PROJECT_DIR$/pages/cad-cliente.php" />
         <option value="$PROJECT_DIR$/conexao/busca-bairro.php" />
+        <option value="$PROJECT_DIR$/pages/cad-cliente.php" />
+        <option value="$PROJECT_DIR$/pages/cad-maquinas.php" />
+        <option value="$PROJECT_DIR$/conexao/carrega-equipamentos.php" />
+        <option value="$PROJECT_DIR$/conexao/grava-cliente.php" />
+        <option value="$PROJECT_DIR$/conexao/grava-equipamento.php" />
+        <option value="$PROJECT_DIR$/pages/cad-itens.php" />
+        <option value="$PROJECT_DIR$/conexao/deleta-equipamento.php" />
       </list>
     </option>
   </component>
@@ -180,11 +198,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -216,12 +233,6 @@
             <path>
               <item name="TrabalhoFinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="TrabalhoFinal" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="conexao" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bd" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="TrabalhoFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrabalhoFinal" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -235,6 +246,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -336,21 +348,31 @@
       <workItem from="1499945092868" duration="15898000" />
       <workItem from="1500300977652" duration="12889000" />
       <workItem from="1500468214417" duration="1467000" />
-      <workItem from="1500469759846" duration="7349000" />
+      <workItem from="1500469759846" duration="15336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39828000" />
+    <option name="totallyTimeSpent" value="47815000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11353944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23294243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -362,7 +384,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -398,135 +419,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/conexao/carrega-edit-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <marker date="1500470127464" expanded="true" signature="437:1151" ph="SELECT log_i... login" />
-            <marker date="1500470127464" expanded="true" signature="1343:1546" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1405:1546" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1622:1831" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1695:1831" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1907:2123" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1974:2123" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="2199:2402" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="2264:2353" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="2264:2402" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/cad-cliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
-          <caret line="157" column="6" lean-forward="true" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
-          <folding>
-            <marker date="1500477565985" expanded="true" signature="2721:2768" ph="SELECT cid_i... cid_cidade" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="195" column="62" lean-forward="false" selection-start-line="195" selection-start-column="62" selection-end-line="195" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/cad-cliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="100" column="50" lean-forward="true" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-          <folding>
-            <marker date="1500477565985" expanded="true" signature="2721:2768" ph="SELECT cid_i... cid_cidade" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conexao/carrega-usuarios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="2" />
-          <folding>
-            <marker date="1500307901926" expanded="true" signature="354:799" ph="SELECT Log_i... login" />
-            <marker date="1500307901926" expanded="true" signature="846:1512" ph="..." />
-            <marker date="1500307901926" expanded="true" signature="884:1490" ph="..." />
-            <marker date="1500307901926" expanded="true" signature="907:1465" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conexao/busca-bairro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding>
-            <marker date="1500477606510" expanded="true" signature="491:657" ph="SELECT br_id... gtc_linhas_variacao" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/edit-usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1500305338589" expanded="true" signature="1392:1434" ph="SELECT log_i... login" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conexao/carrega-edit-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <marker date="1500470127464" expanded="true" signature="437:1151" ph="SELECT log_i... login" />
-            <marker date="1500470127464" expanded="true" signature="1343:1546" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1405:1546" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1622:1831" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1695:1831" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1907:2123" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="1974:2123" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="2199:2402" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="2264:2353" ph="..." />
-            <marker date="1500470127464" expanded="true" signature="2264:2402" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conexao/grava-cliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="97" lean-forward="false" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
-          <folding>
-            <marker date="1500477302071" expanded="true" signature="861:1116" ph="INSERT INTO `cli_cliente`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/cad-usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/label.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -534,6 +431,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="80" column="1" lean-forward="false" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -666,6 +564,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="790">
           <caret line="80" column="1" lean-forward="false" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,6 +572,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -704,14 +604,6 @@
             <marker date="1500307901926" expanded="true" signature="884:1490" ph="..." />
             <marker date="1500307901926" expanded="true" signature="907:1465" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="195" column="62" lean-forward="false" selection-start-line="195" selection-start-column="62" selection-end-line="195" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,43 +644,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conexao/deleta-login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <marker date="1500308217962" expanded="true" signature="348:390" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conexao/bd/conecta.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/cad-usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conexao/carrega-cliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="73" column="108" lean-forward="true" selection-start-line="73" selection-start-column="108" selection-end-line="73" selection-end-column="130" />
-          <folding>
-            <marker date="1500472287506" expanded="true" signature="425:921" ph="SELECT cli_i... cli_cliente" />
-            <marker date="1500472287506" expanded="true" signature="1219:2124" ph="..." />
-            <marker date="1500472287506" expanded="true" signature="1257:2102" ph="..." />
-            <marker date="1500472287506" expanded="true" signature="1280:1311" ph="..." />
-            <marker date="1500472287506" expanded="true" signature="1280:2077" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,10 +673,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conexao/busca-bairro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <marker date="1500477606510" expanded="true" signature="491:657" ph="SELECT br_id... gtc_linhas_variacao" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cad-usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="29" lean-forward="true" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/EddyAtom_0.icls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="195" column="62" lean-forward="false" selection-start-line="195" selection-start-column="62" selection-end-line="195" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cad-cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="70" lean-forward="false" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+          <folding>
+            <marker date="1500483582151" expanded="true" signature="2721:2768" ph="SELECT cid_i... cid_cidade" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conexao/grava-cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1500485417232" expanded="true" signature="861:1116" ph="INSERT INTO `cli_cliente`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conexao/grava-equipamento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1500485649577" expanded="true" signature="543:656" ph="INSERT INTO eq_equipamento... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conexao/grava-usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="20" />
           <folding>
             <marker date="1499962420152" expanded="true" signature="693:762" ph="SELECT log_i... login" />
             <marker date="1499962420152" expanded="true" signature="1060:1191" ph="INSERT INTO `login`... " />
@@ -824,33 +748,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conexao/grava-cliente.php">
+    <entry file="file://$PROJECT_DIR$/conexao/carrega-cliente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="846">
+          <caret line="59" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="2" />
           <folding>
-            <marker date="1500477302071" expanded="true" signature="861:1116" ph="INSERT INTO `cli_cliente`... " />
+            <marker date="1500472287506" expanded="true" signature="425:921" ph="SELECT cli_i... cli_cliente" />
+            <marker date="1500472287506" expanded="true" signature="1219:2124" ph="..." />
+            <marker date="1500472287506" expanded="true" signature="1257:2102" ph="..." />
+            <marker date="1500472287506" expanded="true" signature="1280:1311" ph="..." />
+            <marker date="1500472287506" expanded="true" signature="1280:2077" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/cad-cliente.php">
+    <entry file="file://$PROJECT_DIR$/pages/cad-maquinas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+        <state relative-caret-position="594">
+          <caret line="321" column="9" lean-forward="true" selection-start-line="304" selection-start-column="0" selection-end-line="321" selection-end-column="9" />
           <folding>
-            <marker date="1500477565985" expanded="true" signature="2721:2768" ph="SELECT cid_i... cid_cidade" />
+            <marker date="1500483587572" expanded="true" signature="1756:1819" ph="SELECT eq_id... eq_equipamento" />
+            <marker date="1500483587572" expanded="true" signature="2671:2734" ph="SELECT eq_id... eq_equipamento" />
+            <marker date="1500483587572" expanded="true" signature="3591:3654" ph="SELECT eq_id... eq_equipamento" />
+            <marker date="1500483587572" expanded="true" signature="5147:5208" ph="SELECT eq_id... eq_equipamento" />
+            <marker date="1500483587572" expanded="true" signature="7688:7752" ph="SELECT eq_id... eq_equipamento" />
+            <marker date="1500483587572" expanded="true" signature="9571:9633" ph="SELECT eq_id... eq_equipamento" />
+            <marker date="1500483587572" expanded="true" signature="10480:10494" ph="SELECT cid_i... cid_cidade" />
+            <marker date="1500483587572" expanded="true" signature="10480:10555" ph="SELECT cli_i... cli_cliente" />
+            <marker date="1500483587572" expanded="true" signature="11647:11660" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conexao/busca-bairro.php">
+    <entry file="file://$PROJECT_DIR$/conexao/carrega-equipamentos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="-4">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
-            <marker date="1500477606510" expanded="true" signature="491:657" ph="SELECT br_id... gtc_linhas_variacao" />
+            <marker date="1500484193986" expanded="true" signature="319:562" ph="SELECT eq_id... eq_equipamento" />
+            <marker date="1500484193986" expanded="true" signature="618:1129" ph="..." />
+            <marker date="1500484193986" expanded="true" signature="656:1107" ph="..." />
+            <marker date="1500484193986" expanded="true" signature="679:1082" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conexao/deleta-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
+          <folding>
+            <marker date="1500308217962" expanded="true" signature="348:390" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conexao/deleta-equipamento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <marker date="1500485943569" expanded="true" signature="354:410" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cad-itens.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="108" column="73" lean-forward="false" selection-start-line="108" selection-start-column="73" selection-end-line="108" selection-end-column="73" />
+          <folding>
+            <marker date="1500485862002" expanded="true" signature="1733:1779" ph="SELECT mar_i... mar_marca" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cad-cidade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cad-estado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cad-os.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cad-marca.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cad-fornecedor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
