@@ -24,129 +24,7 @@
     <favorites_list name="TrabalhoFinal" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cad-itens.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cad-itens.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="108" column="73" lean-forward="false" selection-start-line="108" selection-start-column="73" selection-end-line="108" selection-end-column="73" />
-              <folding>
-                <marker date="1500485862002" expanded="true" signature="1733:1779" ph="SELECT mar_i... mar_marca" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cad-cidade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cad-cidade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cad-estado.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cad-estado.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cad-os.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cad-os.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cad-marca.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cad-marca.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cad-fornecedor.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/cad-fornecedor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleta-equipamento.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conexao/deleta-equipamento.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <marker date="1500485943569" expanded="true" signature="354:410" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="carrega-equipamentos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conexao/carrega-equipamentos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <marker date="1500484193986" expanded="true" signature="319:562" ph="SELECT eq_id... eq_equipamento" />
-                <marker date="1500484193986" expanded="true" signature="618:1129" ph="..." />
-                <marker date="1500484193986" expanded="true" signature="656:1107" ph="..." />
-                <marker date="1500484193986" expanded="true" signature="679:1082" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleta-login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conexao/deleta-login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="2" />
-              <folding>
-                <marker date="1500308217962" expanded="true" signature="348:390" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cad-maquinas.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/cad-maquinas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="321" column="9" lean-forward="true" selection-start-line="304" selection-start-column="0" selection-end-line="321" selection-end-column="9" />
-              <folding>
-                <marker date="1500483587572" expanded="true" signature="1756:1819" ph="SELECT eq_id... eq_equipamento" />
-                <marker date="1500483587572" expanded="true" signature="2671:2734" ph="SELECT eq_id... eq_equipamento" />
-                <marker date="1500483587572" expanded="true" signature="3591:3654" ph="SELECT eq_id... eq_equipamento" />
-                <marker date="1500483587572" expanded="true" signature="5147:5208" ph="SELECT eq_id... eq_equipamento" />
-                <marker date="1500483587572" expanded="true" signature="7688:7752" ph="SELECT eq_id... eq_equipamento" />
-                <marker date="1500483587572" expanded="true" signature="9571:9633" ph="SELECT eq_id... eq_equipamento" />
-                <marker date="1500483587572" expanded="true" signature="10480:10494" ph="SELECT cid_i... cid_cidade" />
-                <marker date="1500483587572" expanded="true" signature="10480:10555" ph="SELECT cli_i... cli_cliente" />
-                <marker date="1500483587572" expanded="true" signature="11647:11660" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -348,12 +226,12 @@
       <workItem from="1499945092868" duration="15898000" />
       <workItem from="1500300977652" duration="12889000" />
       <workItem from="1500468214417" duration="1467000" />
-      <workItem from="1500469759846" duration="15336000" />
+      <workItem from="1500469759846" duration="15692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47815000" />
+    <option name="totallyTimeSpent" value="48171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,9 +244,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23294243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23294243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -765,7 +642,7 @@
     <entry file="file://$PROJECT_DIR$/pages/cad-maquinas.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
-          <caret line="321" column="9" lean-forward="true" selection-start-line="304" selection-start-column="0" selection-end-line="321" selection-end-column="9" />
+          <caret line="321" column="9" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="321" selection-end-column="9" />
           <folding>
             <marker date="1500483587572" expanded="true" signature="1756:1819" ph="SELECT eq_id... eq_equipamento" />
             <marker date="1500483587572" expanded="true" signature="2671:2734" ph="SELECT eq_id... eq_equipamento" />
@@ -782,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conexao/carrega-equipamentos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
+        <state relative-caret-position="10">
           <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
             <marker date="1500484193986" expanded="true" signature="319:562" ph="SELECT eq_id... eq_equipamento" />
