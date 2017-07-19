@@ -26,31 +26,35 @@ session_start();
                 </ol>
                 <div class="container">
                     <form role="form">
-                          <div class="form-group">
-                            <label for="nome">Nome Completo:</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">Nome Completo</span>
                             <input type="text" class="form-control" id="user_nome" placeholder="ex: João da Silva"> 
-                          </div>
-                          <div class="form-group">
-                            <label for="usuario">Usuario:</label>
+                        </div>
+                        </br>
+                        <div class="input-group">
+                            <span class="input-group-addon">Usuario</span>
                             <input type="text" class="form-control" id="user_usuario" placeholder="ex: joaosilva">
-                          </div>
-                          <div class="form-group">
-                            <label for="senha">Senha:</label>
+                        </div>
+                        </br>
+                        <div class="input-group">
+                            <span class="input-group-addon">Senha</span>
                             <input type="text" class="form-control" id="user_senha" placeholder="ex: 123456">
-                          </div>
-                          <div class="form-group">
-                            <label for="repsenha">Repetir-Senha:</label>
+                        </div>
+                        </br>
+                        <div class="input-group">
+                            <span class="input-group-addon">Repetir Senha</span>
                             <input type="text" class="form-control" id="user_repsenha" placeholder="ex:123456">
-                          </div>
-                          <div class="form-group">
+                        </div>
+                        </br>
+                        <div class="form-group">
                               <select id="user_nivel" class="selectpicker form-control show-tick">
                                     <option value="0">Selecione o Nivel de Usuario...</option>
                                     <option value="0">Tecnico...</option>
                                     <option value="1">Administrador...</option>
                                 </select>
-                          </div>
-                          <button id="btnGravarUser" type="button" class="btn btn-success">Gravar</button>
-                          <button type="reset" value="Limpar" class="btn btn-warning" >Limpar</button>
+                        </div>
+                        <button id="btnGravarUser" type="button" class="btn btn-success">Gravar</button>
+                        <button type="reset" value="Limpar" class="btn btn-warning" >Limpar</button>
                     </form>
                 </div>
                 <ol class="breadcrumb">

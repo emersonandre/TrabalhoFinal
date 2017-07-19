@@ -5,8 +5,13 @@ if((!isset ($_SESSION['id']) == true) and (!isset ($_SESSION['login']) == true))
 {
     header('location:../login/logar.html');
 }
-// include do arquivo de conexao do banco de dados
+$id_user = $_SESSION['id'];
+$logado = $_SESSION['login'];
+$acesso = $_SESSION['acesso'];
+
+// inicia script de gravacao
 require '../conexao/bd/conecta.php';
+
 
 //executa variaveis vindas do post
 $nome = $_POST['user-nome'];
@@ -19,24 +24,27 @@ $cidade = $_POST['cid-cidade'];
 $bairro = $_POST['id-bairro'];
 
 //inicia validação e inserção dos dados
-if(!empty($nome) && !empty($sobrenome) && !empty($email) && !empty($fone) && !empty($cidade) && !empty($bairro)){ //verifica se todos os dados obrigatorios foram preenchidos
-    $sql = "INSERT INTO cli_cliente (Cli_nome, Cli_sobrenome, Cli_email, Cli_endereco, Cli_complemento, Cli_telefone, Cid_cidade_Cid_id, Br_Bairro_Br_id) 
-            VALUES ('$nome' ,'$sobrenome' ,'$email' ,'$email' ,'$endereco' ,'$complemento' ,'$fone' ,'$cidade' ,'$bairro')";
+if(!empty($nome) or !empty($sobrenome) or !empty($email) or !empty($fone) or !empty($cidade) or !empty($bairro)){ //verifica se todos os dados obrigatorios foram preenchidos
+    $sql = "INSERT INTO cli_cliente( cli_nome, cli_sobrenome, cli_email, cli_endereco, cli_complemento, cli_telefone, cid_cidade_cid_id, br_bairro_br_id) 
+            VALUES ('$nome' ,'$sobrenome' ,'$email' ,'$endereco' ,'$complemento' ,'$fone' ,'$cidade' ,'$bairro')";
+
     //$consulta_query = "";
     //executa a query de consulta para linha e horario;
-    $result_query = mysqli_query($conn,$sql);
-    if(mysqli_num_rows ($result_query) > 0 ) {  // retorno da consulta de horario e linha;
+
+    if (mysqli_query($conn, $sql)) {
         echo "New record created successfully";
-    }else{ // inicia query para gravar no banco
-        header("HTTP/1.0 401");
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-        }
+        header('HTTP/1.0 200');
+    }else{
+        header('HTTP/1.0 500" . $sql . "<br>" . mysqli_error($conn)');
+        echo'<script> alert(" Error: " . $sql . "<br>" . mysqli_error($conn);") </script>';
+
+    }
 }else{
     header("HTTP/1.0 400 Por Favor Preencha todos os Dados Corretamente!");
-    //echo "<script> alert('Por Favor Preencha todos os Dados Corretamente!'); </script>";
+    echo "<script> alert('Por Favor Preencha todos os Dados Corretamente!;') </script>";
 }
 //}//fim do else !$conn
 
-mysqli_close($conn);//encera conexao com o banco
-?>
+//mysqli_close($conn);//encera conexao com o banco
+
 

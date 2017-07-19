@@ -14,7 +14,6 @@ require '../conexao/bd/conecta.php';
 $cid_id = $_POST['cid_cidade'];
 
 ?>
-<label for="Bairro">Bairro:</label>
 <select id="id_bairro" class="selectpicker form-control show-tick">
     <option value="">Selecione o Bairro...</option>
     <?php
@@ -23,8 +22,8 @@ $cid_id = $_POST['cid_cidade'];
                 , br_nome
             FROM 
                 br_bairro
-            WHERE 
-               cid_cidade_cid_id='$cid_id'";
+            WHERE 1
+               and cid_cidade_cid_id='$cid_id'";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         while($row = $result->fetch_assoc()) {
@@ -33,28 +32,24 @@ $cid_id = $_POST['cid_cidade'];
     }
     ?>
 </select>
-<!--
 <script>
-    $('#id_variacao').change(function(){
-        var id_variacao = $('#id_variacao').val();
-        var num_linha = $('#num_linha').val();
-        console.log(num_linha);
-        console.log(id_variacao);
+    $('#id_bairro').change(function(){
+        var id_cidade = $('#cid_cidade').val();
+        var id_bairro = $('#id_bairro').val();
+        //console.log(id_cidade);
+       // console.log(id_bairro);
         $.ajax({
             type:'post',
-            url: '../Painel/carrega/carregahorarios.php',
-            data: {
-                'num_linha':num_linha,
-                'id_variacao':id_variacao
-            },
+            url: './conexao/carrega-cliente.php',
+            data: {'id_cidade':id_cidade,'id_bairro' :id_bairro},
+            async:false,
             erro: function(){
                 alert('erro');
             },
             success: function(data){
-                $("#tabela_horarios").html(data);
+                $('#div_carrega_usuarios').html(data);
             }
 
         });
     });
 </script>
--->

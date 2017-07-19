@@ -38,39 +38,45 @@ $id_usuario = $_POST['id_usuario'];
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
-                echo '<div class="form-group">
-                        <label>Código:</label>
+                echo '<div class="input-group">
+                    <span class="input-group-addon">Id</span>
                         <input type="text" class="form-control" id="user_id" disabled value="'.$row['log_id'].'">
-                    </div>';
-                echo '<div class="form-group">
-                        <label>Nome Completo:</label>
+                    </div>
+                    </br>';
+                echo '<div class="input-group">
+                    <span class="input-group-addon">Nome Completo</span>
                         <input type="text" class="form-control" id="user_nome" value="'.$row['log_nome'].'">
-                    </div>';
-                echo '<div class="form-group">
-                        <label>Usuario:</label>
+                    </div>
+                    </br>';
+                echo '<div class="input-group">
+                    <span class="input-group-addon">Usuario</span>
                         <input type="text" class="form-control" id="user_usuario" disabled value="'.$row['log_login'].'">
-                    </div>';
-                echo '<div class="form-group">
-                        <label>Senha:</label>
+                    </div>
+                    </br>';
+                echo '<div class="input-group">
+                    <span class="input-group-addon">Senha</span>
                         <input type="text" class="form-control" id="user_senha" value="'.$row['log_senha'].'">
-                    </div>';
+                    </div>
+                    </br>';
                 ?>
-                    <div class="form-group">
-                        <label for="nome">Nivel:</label>
+                    <div class="input-group">
+                        <span class="input-group-addon">Nivel</span>
                         <select id="user_nivel" class="selectpicker form-control show-tick">
                             <option value="<?php echo $row['log_permissao']?>"><?php echo $row['perm']?></option>
                             <option value="0">Tecnico...</option>
                             <option value="1">Administrador...</option>
                         </select>
                     </div>
-                    <div class="form-group">
-                        <label for="nome">Status:</label>
+                    </br>
+                    <div class="input-group">
+                        <span class="input-group-addon">Status</span>
                             <select id="user_status" class="selectpicker form-control show-tick">
                                     <option value="<?php echo $row['log_estatus']?>"><?php echo $row['stat']?></option>
                                     <option value="0">Ativo...</option>
                                     <option value="1">Inativo...</option>
                             </select>
                     </div>
+                    </br>
                 <div class="form-group">
                     <button id="btnUpdateUser" type="button" class="btn btn-primary">Atualizar Usuario</button>
                 </div>

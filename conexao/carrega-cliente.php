@@ -9,6 +9,10 @@ $id_user = $_SESSION['id'];
 $logado = $_SESSION['login'];
 $acesso = $_SESSION['acesso'];
 
+//pesquisa por id de cidade e bairro
+$id_cidade = $_POST['id_cidade'];
+$id_bairro = $_POST['id_bairro'];
+
 require '../conexao/bd/conecta.php';
 
 $sql="SELECT 
@@ -27,6 +31,14 @@ $sql="SELECT
             inner JOIN cid_cidade b on (a.Cid_cidade_Cid_id = b.Cid_id)
             inner JOIN br_bairro c on (a.Br_Bairro_Br_id = c.Br_id)
         ";
+//verifica se cidade esta vazio
+if(!empty($_POST['id_cidade'])){
+    $sql.="WHERE a.Cid_cidade_Cid_id = '$id_cidade'";
+}
+//verifica se id bairro e cidade esta vazio.
+if(!empty($id_bairro)){
+    $sql.="and a.Br_Bairro_Br_id = '$id_bairro'";
+}
 
 $tabela = "<table class='table table-hover'>
                 <thead BGCOLOR=black>

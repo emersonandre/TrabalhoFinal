@@ -7,11 +7,12 @@ if((!isset ($_SESSION['id']) == true) and (!isset ($_SESSION['login']) == true))
 }
 $id_user = $_SESSION['id'];
 $logado = $_SESSION['login'];
+$acesso = $_SESSION['acesso'];
 ?>
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">
-            Cadastro<small> Usuario</small>
+            Cadastro<small> Cliente</small>
         </h1>
         <ol class="breadcrumb">
             <li>
@@ -26,32 +27,37 @@ $logado = $_SESSION['login'];
         </ol>
         <div class="container">
             <form role="form">
-                <div class="form-group">
-                    <label for="nome">Nome:</label>
-                    <input type="text" class="form-control" id="user_nome" placeholder="ex: João da Silva">
+                <div class="input-group">
+                    <span class="input-group-addon">Nome</span>
+                    <input type="text" class="form-control" id="user_nome" placeholder="ex: João">
                 </div>
-                <div class="form-group">
-                    <label for="usuario">Sobrenome:</label>
-                    <input type="text" class="form-control" id="user_sob" placeholder="ex: joaosilva">
+                </br>
+                <div class="input-group">
+                    <span class="input-group-addon">Sobrenome</span>
+                    <input type="text" class="form-control" id="user_sob" placeholder="ex: da Silva">
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="user_email" placeholder="ex: 123456">
+                </br>
+                <div class="input-group">
+                    <span class="input-group-addon">Email</span>
+                    <input type="email" class="form-control" id="user_email" placeholder="ex:joao@hotmail.com">
                 </div>
-                <div class="form-group">
-                    <label for="endereco">Endereço:</label>
-                    <input type="text" class="form-control" id="user_ender" placeholder="ex:123456">
+                </br>
+                <div class="input-group">
+                    <span class="input-group-addon">Endereço</span>
+                    <input type="text" class="form-control" id="user_ender" placeholder="ex:Rua A">
                 </div>
-                <div class="form-group">
-                    <label for="complemento">Complemento:</label>
-                    <input type="text" class="form-control" id="user_compl" placeholder="ex:123456">
+                </br>
+                <div class="input-group">
+                    <span class="input-group-addon">Complemento</span>
+                    <input type="text" class="form-control" id="user_compl" placeholder="ex: ´Proximo a Rua B">
                 </div>
-                <div class="form-group">
-                    <label for="fone">Telefone:</label>
-                    <input type="decimal" class="form-control" id="user_fone" placeholder="ex:123456">
+                </br>
+                <div class="input-group">
+                    <span class="input-group-addon">Telefone</span>
+                    <input type="decimal" class="form-control" id="user_fone" placeholder="ex:49 9999-9999">
                 </div>
+                </br>
                 <div class="form-group">
-                    <label for="Cidade">Cidade:</label>
                     <?php require '../conexao/bd/conecta.php'; ?>
                     <select id="cid_cidade" class="selectpicker form-control show-tick">
                         <option value="">Selecione a Cidade...</option>
@@ -65,18 +71,18 @@ $logado = $_SESSION['login'];
                         }
                         ?>
                     </select>
-                    <br>
-                    <div class="form-group">
-                        <div id='carrega_bairro'></div>
-                     </div>
                 </div>
-                <button id="btnGravarUser" type="button" class="btn btn-success">Gravar</button>
+                <div class="form-group">
+                    <div id='carrega_bairro'></div>
+                </div>
+                </br>
+                <button id="btnGravarCliente" type="button" class="btn btn-success">Gravar</button>
                 <button type="reset" value="Limpar" class="btn btn-warning" >Limpar</button>
             </form>
         </div>
         <ol class="breadcrumb">
             <li class="active">
-                <i class="fa fa-file"></i> Usuarios Cadastrados
+                <i class="fa fa-file"></i> Clientes Cadastrados
             </li>
         </ol>
         <div class="container">
@@ -87,9 +93,9 @@ $logado = $_SESSION['login'];
     </div>
 </div>
 <script>
-    $("#btnGravarUser").click(function(){
+    $("#btnGravarCliente").click(function(){
         $.ajax({
-            type:'POST',
+            type:'post',
             url:'./conexao/grava-cliente.php',
             async:false,
             data:{
@@ -118,7 +124,7 @@ $logado = $_SESSION['login'];
 <script>
     $('#cid_cidade').change(function(){
         var cid_cidade = $('#cid_cidade').val();
-        console.log(cid_cidade);
+        //console.log(cid_cidade);
         $.ajax({
             type:'post',
             url: './conexao/busca-bairro.php',
@@ -133,21 +139,42 @@ $logado = $_SESSION['login'];
         });
     });
 </script>
-<!-- function excluir dados da tabela-->
+<!--procura cadastros por cidade selecionado -->
 <script>
-    function aoClicarExcluirLogin(id){
+    $('#cid_cidade').change(function(){
+        var id_cidade = $('#cid_cidade').val();
+        //console.log(id_cidade);
         $.ajax({
             type:'post',
-            url: './conexao/deleta-login.php',
+            url: './conexao/carrega-cliente.php',
+            data: {'id_cidade':id_cidade},
+            async:false,
+            erro: function(){
+                alert('erro');
+            },
+            success: function(data){
+                $('#div_carrega_usuarios').html(data);
+            }
+
+        });
+    });
+    //por bairro e cidade selecionados
+</script>
+<!-- function excluir dados da tabela-->
+<script>
+    function aoClicarExcluirCliente(id){
+        $.ajax({
+            type:'post',
+            url: './conexao/deleta-cliente.php',
             data: {'id':id},
             timeout: '10000',
             success: function(){
                 alert("Mensagem: Usuario Deletado com Sucesso!" );
-                $('#div_carrega_usuarios').load('./conexao/carrega-usuarios.php');
+                $('#div_carrega_usuarios').load('./conexao/carrega-cliente.php');
             },
             error: function(jqXHR, textStatus, errorThrown){
                 alert("Error: " + errorThrown);
-                $('#div_carrega_usuarios').load('./conexao/carrega-usuarios.php');
+                $('#div_carrega_usuarios').load('./conexao/carrega-cliente.php');
             }
         });
     };
