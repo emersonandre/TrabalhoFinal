@@ -83,7 +83,16 @@ session_start();
                             <a href="#" id="btnCadMaquinas"><i class="fa fa-fw fa-edit"></i>Cadastro Maquinas</a>
                         </li>
                         <li>
+                            <a href="#" id="btnCadOs"><i class="fa fa-fw fa-edit"></i>Cadastro Os</a>
+                        </li>
+                        <li>
                             <a href="#" id="btnCadItens"><i class="fa fa-fw fa-edit"></i>Cadastro Itens</a>
+                        </li>
+                        <li>
+                            <a href="#" id="btnCadFornecedor"><i class="fa fa-fw fa-edit"></i>Cadastro Fornecedor</a>
+                        </li>
+                        <li>
+                            <a href="#" id="btnCadMarcas"><i class="fa fa-fw fa-edit"></i>Cadastro Marcas</a>
                         </li>
                         <li>
                             <a href="#" id="btnCadCidade"><i class="fa fa-fw fa-edit"></i>Cadastro Cidade</a>
@@ -97,10 +106,22 @@ session_start();
                     <a href="javascript:;" data-toggle="collapse" data-target="#edicao"><i class="fa fa-fw fa-arrows-v"></i>Edição<i class="fa fa-fw fa-caret-down"></i></a>
                     <ul id="edicao" class="collapse">
                         <li>
-                            <a href="#" id="btnEditMaquinas"><i class="fa fa-fw fa-edit"></i>Editar Maquinas</a>
+                            <a href="#" id="btnEditCliente"><i class="fa fa-fw fa-edit"></i>Editar Cliente</a>
+                        </li>
+                        <li>
+                            <a href="#" id="btnEditMaquina"><i class="fa fa-fw fa-edit"></i>Editar Maquinas</a>
+                        </li>
+                        <li>
+                            <a href="#" id="btnEditOs"><i class="fa fa-fw fa-edit"></i>Editar Os</a>
                         </li>
                         <li>
                             <a href="#" id="btnEditItens"><i class="fa fa-fw fa-edit"></i>Editar Itens</a>
+                        </li>
+                        <li>
+                            <a href="#" id="btnEditFornecedor"><i class="fa fa-fw fa-edit"></i>EditarFornecedor</a>
+                        </li>
+                        <li>
+                            <a href="#" id="btnEditMarcas"><i class="fa fa-fw fa-edit"></i>Editar Marcas</a>
                         </li>
                         <li>
                             <a href="#" id="btnEditCidade"><i class="fa fa-fw fa-edit"></i>Editar Cidade</a>
